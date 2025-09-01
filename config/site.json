@@ -3,28 +3,28 @@
         "name": "Driizzyy Boosts",
         "description": "Premium Discord Server Boosting Services - No Subscriptions, One-Time Purchases Only",
         "tagline": "#1 Discord Boosting Platform",
-        "established": "2021",
-        "email": "support@driizzyboosts.com",
-        "discord": "Driizzyy#0001",
+        "established": "2020",
+        "email": "driizzyyboosts@gmail.com",
+        "discord": "drakko5.56",
         "response_time": "Usually within 5 minutes"
     },
     "shop": {
-        "webhook_url": "https://discord.com/api/webhooks/1404857998433587200/odugvH1_ufQHuMBi-aQKcFXs-T7VqaEmFAyPhym7ZahjQvbCYrXgkRGqHpuQVe23D_Da",
-        "ticket_channel": "https://discord.com/channels/1335366690984169473/1335369521128538184"
+        "webhook_url": "https://discord.com/api/webhooks/1411973676185686016/11n1qWvsltoaGESPBqLjhQKKel1ydOguN_PtQscMJvN4w8ltafxUJ8PxJyt2RiCGcmhN",
+        "ticket_channel": "https://discord.com/channels/1411616790563524631/1411636668523614214"
     },
     "services": {
         "server_boosts_1month": [
             {
-                "name": "7x Server Boosts (1 Month)",
-                "price": 5,
+                "name": "8x Server Boosts (1 Month)",
+                "price": 9.59,
                 "duration": "1 month",
-                "boosts": 7,
+                "boosts": 8,
                 "level": "1-2",
                 "features": ["Enhanced Audio", "Custom Emojis", "Instant Delivery"]
             },
             {
                 "name": "14x Server Boosts (1 Month)",
-                "price": 8,
+                "price": 16.79,
                 "duration": "1 month",
                 "boosts": 14,
                 "level": "2-3",
@@ -33,7 +33,7 @@
             },
             {
                 "name": "20x Server Boosts (1 Month)",
-                "price": 12,
+                "price": 23.99,
                 "duration": "1 month",
                 "boosts": 20,
                 "level": "3",
@@ -42,16 +42,16 @@
         ],
         "server_boosts_3month": [
             {
-                "name": "7x Server Boosts (3 Month)",
-                "price": 12,
+                "name": "8x Server Boosts (3 Month)",
+                "price": 19.99,
                 "duration": "3 months",
-                "boosts": 7,
+                "boosts": 8,
                 "level": "1-2",
                 "features": ["Enhanced Audio", "Custom Emojis", "Extended Duration"]
             },
             {
                 "name": "14x Server Boosts (3 Month)",
-                "price": 20,
+                "price": 34.99,
                 "duration": "3 months",
                 "boosts": 14,
                 "level": "2-3",
@@ -60,7 +60,7 @@
             },
             {
                 "name": "20x Server Boosts (3 Month)",
-                "price": 28,
+                "price": 49.99,
                 "duration": "3 months",
                 "boosts": 20,
                 "level": "3",
@@ -70,14 +70,14 @@
         "nitro_gifts": [
             {
                 "name": "Discord Nitro 1 Month Gift",
-                "price": 12,
+                "price": 19.99,
                 "duration": "1 month",
                 "type": "gift_code",
                 "features": ["Higher Quality Streaming", "Custom Emojis", "Larger Uploads"]
             },
             {
                 "name": "Discord Nitro 1 Year Gift",
-                "price": 80,
+                "price": 79.99,
                 "duration": "1 year",
                 "type": "gift_code",
                 "popular": true,
@@ -169,3 +169,4 @@
         }
     ]
 }
+
