@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug - Test Site Data Loading</title>
+</head>
+<body>
+    <h1>Debug Test</h1>
+    <div id="debug-output"></div>
+    
+    <script>
+        // Test if site.json can be loaded
+        fetch('./config/site.json')
+            .then(response => response.json())
+            .then(data => {
+                console.log('Site data loaded:', data);
+                document.getElementById('debug-output').innerHTML = `
+                    <h2>Site Data Loaded Successfully!</h2>
+                    <p>Services found: ${Object.keys(data.services || {}).join(', ')}</p>
+                    <p>Server boosts count: ${data.services.server_boosts ? data.services.server_boosts.length : 'Not found'}</p>
+                    <pre>${JSON.stringify(data.services, null, 2)}</pre>
+                `;
+            })
+            .catch(error => {
+                console.error('Error loading site data:', error);
+                document.getElementById('debug-output').innerHTML = `
+                    <h2>Error Loading Site Data</h2>
+                    <p>${error.message}</p>
+                `;
+            });
+    </script>
+</body>
+</html>
